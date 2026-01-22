@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEA_STORYTITLE">
+            <Text>For many generations…</Text>
+        </Row>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEA_COMPLETION">
+            <Text>they obeyed the laws and loved the divine to which they were akin…they reckoned that qualities of character were far more important than their present prosperity.</Text>
+        </Row>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
+            <Text>The people will flourish.</Text>
+        </Row>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
+            <Text>The markets will prosper.</Text>
+        </Row>
+        <Row Tag="LOC_ATLANTIS_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+    </EnglishText>
+</Database>
