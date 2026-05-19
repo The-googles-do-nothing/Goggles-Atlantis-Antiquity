@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Attributes -->
-	<Modifier id="MOD_JEC_ATLANTIS_FORBID_CITIES_FROM_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_FORBID_UPGRADE_TOWN_TO_CITY"></Modifier>
-
+	<Modifier id="MOD_JEC_ATLANTIS_FORBID_CITIES_FROM_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_CITY_LIMIT" permanent="true">
+		<Argument name="Amount">1</Argument>
+	</Modifier>
 
 	<!-- Civ Standard -->
 	<Modifier id="MOD_JEC_REVEAL_CIV_CULTURE_TREE_ATLANTIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
