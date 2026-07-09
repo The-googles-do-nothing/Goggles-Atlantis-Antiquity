@@ -15,17 +15,25 @@
 	<Traits>
 		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" Name="LOC_TRAIT_ATLANTIS_JEC_ABILITY_NAME" Description="LOC_TRAIT_ATLANTIS_JEC_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
-	<TraitModifiers>
-		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_ATLANTIS_FORBID_CITIES_FROM_TOWNS"/>
-		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_CIV_WONDER_PRODUCTION_ATLANTIS"/>
-	</TraitModifiers>
+
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ANTIQUITY_CIV"/>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATLANTIS_JEC"/>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATLANTIS_JEC_2"/>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATLANTIS_JEC_ABILITY"/>
+
+		<!-- ancient -->
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_CULTURAL"/>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+
+		<!-- exploration -->
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_CULTURAL_TOT_EX"/>
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_EX"/>
+		
+		<!-- modern -->
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_CULTURAL_TOT_MO"/>
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_MO"/>
+
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->

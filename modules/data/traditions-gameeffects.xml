@@ -30,4 +30,53 @@
 		<String context="Description">LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- exploration -->
+	<Modifier id="MOD_JEC_CRITIAS_II_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">30</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_CRITIAS_NAME</Argument>
+	</Modifier>
+
+	<!-- modern -->
+	<Modifier id="MOD_JEC_CRITIAS_III_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">40</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_CRITIAS_NAME</Argument>
+	</Modifier>
+
+	<!-- ==================================================	-->
+	<!--	Unlock Syncretism Traditions				-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_UNLOCK_ATLANTIS_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_ATLANTIS_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_ATLANTIS_JEC_SYNCRETISM_MODERN</Argument>
+	</Modifier>
+
+	<!-- Syncretism -->
+	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Unassigned">true</Argument>
+		<String context="Description">LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Unassigned">true</Argument>
+		<String context="Description">LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION</String>
+	</Modifier>
+
 </GameEffects>

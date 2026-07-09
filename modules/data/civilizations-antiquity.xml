@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_ATLANTIS_FORBID_CITIES_FROM_TOWNS"/>
+		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_CIV_WONDER_PRODUCTION_ATLANTIS"/>
+	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ATLANTIS_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_ATLANTIS_JEC" RequirementId="REQ_PLAYER_HAS_TRAIT_ATLANTIS_JEC" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ATLANTIS_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_ATLANTIS_JEC" Name="TraitType" Value="TRAIT_ATLANTIS_JEC" />
+	</RequirementArguments>
+</Database>

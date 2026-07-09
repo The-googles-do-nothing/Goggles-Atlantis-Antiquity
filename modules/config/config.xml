@@ -26,6 +26,7 @@
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" TagType="TAG_TRAIT_CULTURAL"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" TagType="TAG_APEX_AGE_ANTIQUITY"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_BENJAMIN_FRANKLIN_ATLANTIS_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />

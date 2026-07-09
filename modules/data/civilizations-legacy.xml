@@ -10,9 +10,6 @@
 		<!-- Full Civs -->
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" Name="LOC_CIVILIZATION_ATLANTIS_JEC_NAME" FullName="LOC_CIVILIZATION_ATLANTIS_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_ATLANTIS_JEC_ADJECTIVE" Age="AGE_ANTIQUITY"/>
 	</LegacyCivilizations>
-	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TraitType="TRAIT_ATLANTIS_JEC"/>
-	</LegacyCivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_ATLANTIS_JEC" InternalOnly="true"/>
 		<Row TraitType="TRAIT_ATLANTIS_JEC_2" InternalOnly="true"/>
