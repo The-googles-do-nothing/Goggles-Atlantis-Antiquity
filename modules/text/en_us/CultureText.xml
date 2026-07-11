@@ -5,7 +5,6 @@
 			<Text>Atlantian Civics</Text>
 		</Row>
 
-		<!-- NODE_CIVIC_AQ_ATLANTIS_PILLARS_OF_HERCULES -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_PILLARS_OF_HERCULES_QUOTE">
 			<Text>This power came forth out of the Atlantic Ocean, for in those days the Atlantic was navigable; and there was an island situated in front of the straits which are by you called the Pillars of Heracles; the island was larger than Libya and Asia put together, and was the way to other islands, and from these you might pass...</Text>
 		</Row>
@@ -13,18 +12,9 @@
 			<Text>Plato</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_PILLARS_OF_HERCULES_NAME">
-			<Text>Pillars of Hercules</Text>
+			<Text>Pillars of Hercules I</Text>
 		</Row>
 
-		<!-- traditions -->
-		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_NAME">
-			<Text>Critias</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_DESCRIPTION">
-			<Text>Increased [icon:YIELD_GOLD] Gold from Urban Center Towns.</Text>
-		</Row>
-
-		<!-- NODE_CIVIC_AQ_ATLANTIS_ORICALICUM -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_QUOTE">
 			<Text>..hunted after the bulls with staves and nooses but with no weapon of iron..</Text>
 		</Row>
@@ -36,11 +26,9 @@
 		</Row>
 
 		<Row Tag="LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_DESCRIPTION">
-			<Text>Increased [icon:YIELD_GOLD] Gold on Rural Districts in Cities during a golden age.</Text>
+			<Text>Increased [icon:YIELD_CULTURE] Culture on Rural Districts in Cities during a golden age. Increased [icon:YIELD_GOLD] Gold on Rural Districts in Cities outside a golden age.</Text>
 		</Row>
 		
-
-		<!-- LOC_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_QUOTE -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_QUOTE">
 			<Text>...and that the king had no authority to put to death any of his brother-princes save with the consent of more than half of the ten.</Text>
 		</Row>
@@ -52,10 +40,9 @@
 		</Row>
 
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_DESCRIPTION">
-			<Text>Increased [icon:YIELD_CULTURE] Culture on Urban Districts in Cities during a golden age.</Text>
+			<Text>Increased [icon:YIELD_DIPLOMACY] Influence on Urban Districts in Cities during a golden age. Increased [icon:YIELD_HAPPINESS] Happiness on Urban Districts in Cities outside a golden age.</Text>
 		</Row>
 
-		<!-- LOC_NODE_CIVIC_AQ_ATLANTIS_ORICALICUM_QUOTE -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_ORICALICUM_QUOTE">
 			<Text>orikhalkon (orichalc) (mountain-copper) which sparkled like fire.</Text>
 		</Row>
@@ -64,20 +51,6 @@
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_ORICALICUM_NAME">
 			<Text>Oricalicum</Text>
-		</Row>
-		
-		<!-- traditions -->
-		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_NAME">
-			<Text>Sixth Portion</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_DESCRIPTION">
-			<Text>{LOC_TRADITION_ATLANTIS_SIXTH_PORTION_COMBAT_DESCRIPTION}{LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION}</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_COMBAT_DESCRIPTION">
-			<Text>Increased healing for Cavalry.</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold to maintain Cavalry  Military Units.</Text>
 		</Row>
 
 	</EnglishText>

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Tradition: Critias: +1 Gold per specialists. -->
-	<Modifier id="MOD_JEC_CRITIAS_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
-				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Percent">20</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_CRITIAS_NAME</Argument>
+
+
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_I_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterCulture</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_I_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterScience</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
 	</Modifier>
 
 	<!-- Sixth portion: Settlements receive increased Gold based on Urban Population  -->
-	<Modifier id="MOD_JEC_SIXTH_PORTION__CAVALRY_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="MOD_JEC_SIXTH_PORTION_CAVALRY_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
@@ -31,27 +34,29 @@
 	</Modifier>
 
 	<!-- exploration -->
-	<Modifier id="MOD_JEC_CRITIAS_II_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
-				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Percent">30</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_CRITIAS_NAME</Argument>
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_II_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterCulture</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_II_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterScience</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Divisor">1</Argument>
 	</Modifier>
 
 	<!-- modern -->
-	<Modifier id="MOD_JEC_CRITIAS_III_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
-				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Percent">40</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_CRITIAS_NAME</Argument>
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_III_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterCulture</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_MODERN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATLANTIS_JEC_CRITIAS_III_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">QuarterScience</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Divisor">1</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->
@@ -65,18 +70,27 @@
 	</Modifier>
 
 	<!-- Syncretism -->
-	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
-		<Argument name="Unassigned">true</Argument>
-		<String context="Description">LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION</String>
+	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">10</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
-		<Argument name="Unassigned">true</Argument>
-		<String context="Description">LOC_MOD_JEC_GIFTS_OF_THE_STORM_GOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION</String>
+	<Modifier id="MOD_ATLANTIS_JEC_SYNCRETISM_MODERN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_URBAN_CENTER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">20</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_MODERN_DESCRIPTION</Argument>
 	</Modifier>
+
 
 </GameEffects>

@@ -1,0 +1,33 @@
+
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_NODE_CIVIC_AQ_ATLANTIS_JEC_ORIGINS_NAME">
+			<Text>Atlantis Origins</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_EX_ATLANTIS_JEC_RENAISSANCE_NAME">
+			<Text>Atlantis Renaissance</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION_NAME">
+			<Text>Pillars of Hercules II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>Increased [icon:YIELD_GOLD] Gold from Urban Center Towns.</Text>
+		</Row>
+
+		<Row Tag="LOC_NODE_CIVIC_MO_ATLANTIS_JEC_MODERNIZATION_NAME">
+			<Text>Atlantis Modernization</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_MODERN_NAME">
+			<Text>Pillars of Hercules III</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_JEC_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>Increased [icon:YIELD_GOLD] Gold from Urban Center Towns.</Text>
+		</Row>
+
+    </EnglishText>
+</Database>
+
+
+
+

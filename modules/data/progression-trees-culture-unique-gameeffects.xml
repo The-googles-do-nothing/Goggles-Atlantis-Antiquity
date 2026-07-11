@@ -4,13 +4,26 @@
 		<!-- NODE_CIVIC_AQ_ATLANTIS_PILLARS_OF_HERCULES -->
 
 		<!-- NODE_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS -->
-		<Modifier id="NODE_JEC_HUNT_OF_THE_BULLS_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+		<Modifier id="NODE_JEC_HUNT_OF_THE_BULLS_MOD_GOLDEN_AGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE" />
 			</SubjectRequirements>
+			<Argument name="YieldType">YIELD_CULTURE</Argument>
+			<Argument name="Amount">1</Argument>
+			<Argument name="Divisor">1</Argument>
+			<Argument name="Urban">false</Argument>
+			<Argument name="Rural">true</Argument>
+			<Argument name="Tooltip">LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_NAME</Argument>
+			<String context="Description">LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_DESCRIPTION</String>
+		</Modifier>
+
+		<Modifier id="NODE_JEC_HUNT_OF_THE_BULLS_MOD_NOT_GOLDEN_AGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE" inverse="true" />
+			</SubjectRequirements>
 			<Argument name="YieldType">YIELD_GOLD</Argument>
-			<Argument name="Amount">2</Argument>
-			<Argument name="Divisor">2</Argument>
+			<Argument name="Amount">1</Argument>
+			<Argument name="Divisor">1</Argument>
 			<Argument name="Urban">false</Argument>
 			<Argument name="Rural">true</Argument>
 			<Argument name="Tooltip">LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_NAME</Argument>
@@ -18,13 +31,26 @@
 		</Modifier>
 
 		<!-- NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS -->
-		<Modifier id="NODE_JEC_LAWS_OF_THE_TEN_KINGS_MOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+		<Modifier id="NODE_JEC_LAWS_OF_THE_TEN_KINGS_MOD_GOLDEN_AGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE" />
 			</SubjectRequirements>
 			<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 			<Argument name="Amount">1</Argument>
-			<Argument name="Divisor">2</Argument>
+			<Argument name="Divisor">1</Argument>
+			<Argument name="Urban">true</Argument>
+			<Argument name="Rural">false</Argument>
+			<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_NAME</Argument>
+			<String context="Description">LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_DESCRIPTION</String>
+		</Modifier>
+
+		<Modifier id="NODE_JEC_LAWS_OF_THE_TEN_KINGS_MOD_NOT_GOLDEN_AGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE" inverse="true" />
+			</SubjectRequirements>
+			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+			<Argument name="Amount">1</Argument>
+			<Argument name="Divisor">1</Argument>
 			<Argument name="Urban">true</Argument>
 			<Argument name="Rural">false</Argument>
 			<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_NAME</Argument>

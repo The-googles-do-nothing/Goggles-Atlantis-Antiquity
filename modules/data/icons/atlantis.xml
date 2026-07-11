@@ -24,6 +24,10 @@
 			<Path>fs://game/goggles_civ_atlantis/icons/lsbg_atlantis_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+            <ID>bg-panel-atlantis_jec</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/lsbg_atlantis_720.png</Path>
+        </Row> 
         <!-- Culture -->
         <Row>
             <ID>cult_atlantis</ID>

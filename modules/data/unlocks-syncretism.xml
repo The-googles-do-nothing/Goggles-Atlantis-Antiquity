@@ -2,6 +2,7 @@
 <Database>
 	<LeaderSyncretismUnlocks>
 		<Row LeaderType="LEADER_BENJAMIN_FRANKLIN" UnlockCivilizationType="CIVILIZATION_ATLANTIS_JEC" />
+		<Row LeaderType="LEADER_ADA_LOVELACE" UnlockCivilizationType="CIVILIZATION_ATLANTIS_JEC" />
 	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" UnlockCivilizationType="CIVILIZATION_AMERICA" />

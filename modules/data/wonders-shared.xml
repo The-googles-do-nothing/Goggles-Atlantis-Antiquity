@@ -21,7 +21,6 @@
 		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" YieldType="YIELD_GOLD" YieldChange="3"/>
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
-		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD"/>
 		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD_FOOD"/>
 		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_TEMPLE_OF_POSEIDON_MOD_GOLD"/>
 	</ConstructibleModifiers>

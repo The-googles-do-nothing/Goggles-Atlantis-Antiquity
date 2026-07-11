@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- ancient -->
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_NAME">
+			<Text>Critias</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_DESCRIPTION">
+			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+		</Row>	
+
+		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_NAME">
+			<Text>Sixth Portion</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_DESCRIPTION">
+			<Text>{LOC_TRADITION_ATLANTIS_SIXTH_PORTION_COMBAT_DESCRIPTION}{LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_COMBAT_DESCRIPTION">
+			<Text>Increased healing for Cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION">
+			<Text>+100%[icon:YIELD_GOLD] Gold to maintain Cavalry  Military Units.</Text>
+		</Row>
+
+        <!-- exploration -->
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_II_NAME">
+			<Text>Critias</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_II_DESCRIPTION">
+			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+		</Row>	
+
+        <!-- modern -->
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_III_NAME">
+			<Text>Critias</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_III_DESCRIPTION">
+			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+		</Row>	
+
+	</EnglishText>
+</Database>

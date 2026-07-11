@@ -65,8 +65,11 @@
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" CityName="LOC_CITY_NAME_ATLANTIS_JEC22"/>
 	</CityNames>
 	<StartBiasAdjacentToCoasts>
-		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" Score="150"/>
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" Score="10"/>
 	</StartBiasAdjacentToCoasts>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" TerrainType="TERRAIN_MOUNTAIN" Score="10"/>
+	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" BuildingCulture="BUILDING_CULTURE_MED"/>
 		<Row CivilizationType="CIVILIZATION_ATLANTIS_JEC" BuildingCulture="ANT_STONE"/>

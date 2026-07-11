@@ -32,7 +32,7 @@
 		</Row>
 
 		<Row Tag="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_TOWN">
-			<Text>Town: +1 [icon:YIELD_PRODUCTION]Production per Urban District. +1 Resource Capacity in the Capital.</Text>
+			<Text>Town: +1 [icon:YIELD_GOLD]Gold in Quarters. +1 Resource Capacity in the Capital.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_CITY">

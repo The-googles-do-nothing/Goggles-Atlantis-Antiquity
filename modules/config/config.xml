@@ -30,11 +30,10 @@
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_BENJAMIN_FRANKLIN_ATLANTIS_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_ADA_LOVELACE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_ADA_LOVELACE_ATLANTIS_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_HAWAII" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_HAWAII_NAME" Description="LOC_CIVILIZATION_HAWAII_DESCRIPTION" Icon="CIVILIZATION_HAWAII"/>
-		
 	</CivilizationUnlocks>
 	<LeaderUnlocks>
 
