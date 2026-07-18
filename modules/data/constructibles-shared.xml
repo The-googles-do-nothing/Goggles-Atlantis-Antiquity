@@ -46,8 +46,7 @@
 
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="IMPROVEMENT_ATLANTIS_VOLCANO_JEC" YieldChangeId="QuarterCulture"/>
-		<Row ConstructibleType="IMPROVEMENT_ATLANTIS_VOLCANO_JEC" YieldChangeId="QuarterScience"/>
+
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 
@@ -65,6 +64,7 @@
 
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
+		<Row ConstructibleType="IMPROVEMENT_ATLANTIS_VOLCANO_JEC" ModifierId="MOD_ATLANTIS_VOLCANO_JEC_WONDER_PRODUCTION"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 	</UniqueQuarters>

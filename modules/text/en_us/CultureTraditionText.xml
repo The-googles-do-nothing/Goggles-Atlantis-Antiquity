@@ -6,7 +6,7 @@
 			<Text>Critias</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_DESCRIPTION">
-			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+			<Text>Increased Culture and Science for the Palace from Quarters.</Text>
 		</Row>	
 
 		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_NAME">
@@ -19,7 +19,7 @@
 			<Text>Increased healing for Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ATLANTIS_SIXTH_PORTION_MAINTAIN_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold to maintain Cavalry  Military Units.</Text>
+			<Text>+100%[icon:YIELD_GOLD] Gold to maintain Cavalry Military Units.</Text>
 		</Row>
 
         <!-- exploration -->
@@ -27,7 +27,7 @@
 			<Text>Critias</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_II_DESCRIPTION">
-			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+			<Text>Increased Culture and Science for the Palace from Quarters.</Text>
 		</Row>	
 
         <!-- modern -->
@@ -35,7 +35,7 @@
 			<Text>Critias</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ATLANTIS_CRITIAS_III_DESCRIPTION">
-			<Text>Increased Culture and Science for the Palace and Volcanos from Quarters.</Text>
+			<Text>Increased Culture and Science for the Palace from Quarters.</Text>
 		</Row>	
 
 	</EnglishText>

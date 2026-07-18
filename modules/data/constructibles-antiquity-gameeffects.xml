@@ -1,78 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<!-- TOWN -->
-	<Modifier id="ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_GOLD_TOWN" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER">
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-	
-	<Modifier id="MOD_JEC_BELLOWS_OF_HEPHAESTUS_GOLD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_GOLD_TOWN</Argument>
-		<String context="Description">LOC_BELLOWS_OF_HEPHAESTUS_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_TOWN" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_TOWN</Argument>
-		<String context="Description">LOC_BELLOWS_OF_HEPHAESTUS_DESCRIPTION</String>
-	</Modifier>
-	
-	<!-- CITY -->
-	<Modifier id="ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_CITYCENTER_PRODUCTION_CITY" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">CITYCENTER</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
+		<Argument name="Adjacency_YieldChange">ResourceProduction</Argument>
+		<Argument name="Amount">10</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- QUARTER_WHETSTONE_OF_ARES -->
+	<Modifier id="MOD_JEC_ATLANTIS_MILITARY_BUILDING" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_WHETSTONE_OF_ARES</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="Tag">MILITARY</Argument>
 		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="Amount">20</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_MILITARY_BUILDING_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
+	<Modifier id="MOD_JEC_ATLANTIS_COAST_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_CORNUCOPIA_OF_DEMETER</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="Adjacency_YieldChange">CoastFood</Argument>
+		<Argument name="Amount">10</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_COAST_FOOD_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_JEC_ATLANTIS_RIVER_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_CORNUCOPIA_OF_DEMETER</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+		</SubjectRequirements>
+		<Argument name="Adjacency_YieldChange">RiverFood</Argument>
+		<Argument name="Amount">10</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RIVER_FOOD_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- QUARTER_SPRING_OF_ARTEMIS -->
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_SPRING_OF_ARTEMIS</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_ATTACH</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<Argument name="Amount">10</Argument>
 	</Modifier>
 	
-	<Modifier id="MOD_JEC_BELLOWS_OF_HEPHAESTUS_PRODUCTION_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_SPRING_OF_ARTEMIS</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_CITYCENTER_PRODUCTION_CITY</Argument>
-		<String context="Description">LOC_BELLOWS_OF_HEPHAESTUS_DESCRIPTION</String>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_ATTACH</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION</String>
 	</Modifier>
-
-	<Modifier id="ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_CITY" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
-		<Argument name="Amount">1</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_BELLOWS_OF_HEPHAESTUS</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_JEC_BELLOWS_OF_HEPHAESTUS_RESOURCE_CAP_CITY</Argument>
-		<String context="Description">LOC_BELLOWS_OF_HEPHAESTUS_DESCRIPTION</String>
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+		<Argument name="Amount">10</Argument>
 	</Modifier>
 
 </GameEffects>

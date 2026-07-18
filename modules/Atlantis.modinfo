@@ -38,6 +38,9 @@
         <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
             <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
         </Criteria>
+        <Criteria all="true" id="ada-lovelace-enable">
+            <ModInUse>ada-lovelace</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
@@ -55,6 +58,13 @@
 					<Item>ui/game.js</Item>
 				</UIScripts>
 			</Actions>
+		</ActionGroup>
+		<ActionGroup id="goggles-mod-atlantis-ada-lovelace" scope="game" criteria="ada-lovelace-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>ada-lovelace/data/civilizations-shared.xml</Item>
+                </UpdateDatabase>
+            </Actions>
 		</ActionGroup>
 		<!-- atlantis -->
 		<ActionGroup id="atlantis-text" scope="game" criteria="always">
@@ -79,7 +89,7 @@
 					<Item>icons/cult_atlantis_jec.png</Item>
 					<Item>icons/unitflag_war_chariot_jec.png</Item>
 					<Item>icons/wondericon_temple_of_poseidon.png</Item>
-					<Item>icons/buildicon_forge_of_hephaestus_jec.png</Item>
+					<Item>icons/buildicon_PERIBOLOS_jec.png</Item>
 					<Item>icons/lsbg_atlantis_720.png</Item>
 					<Item>icons/lsbg_atlantis_1080.png</Item>
                 </ImportFiles>
@@ -167,7 +177,7 @@
 					<Item>icons/cult_atlantis_jec.png</Item>
 					<Item>icons/unitflag_war_chariot_jec.png</Item>
 					<Item>icons/wondericon_temple_of_poseidon.png</Item>
-					<Item>icons/buildicon_forge_of_hephaestus_jec.png</Item>
+					<Item>icons/buildicon_PERIBOLOS_jec.png</Item>
 					<Item>icons/lsbg_atlantis_720.png</Item>
 					<Item>icons/lsbg_atlantis_1080.png</Item>
                 </ImportFiles>

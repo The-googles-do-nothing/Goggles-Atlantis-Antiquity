@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_ADA_LOVELACE" Civilization="CIVILIZATION_ATLANTIS_JEC" Priority="3"/>
+	</LeaderCivPriorities>
+</Database>

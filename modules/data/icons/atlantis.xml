@@ -40,6 +40,11 @@
 		</Row>
         <!-- Buildings -->
          <Row>
+            <ID>BUILDING_PERIBOLOS_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_PERIBOLOS_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+         <Row>
             <ID>BUILDING_FORGE_OF_HEPHAESTUS_JEC</ID>
             <Path>fs://game/goggles_civ_atlantis/icons/buildicon_forge_of_hephaestus_jec.png</Path>
             <Context>DEFAULT</Context>
