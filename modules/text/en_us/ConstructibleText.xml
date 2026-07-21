@@ -8,63 +8,91 @@
 		<Row Tag="LOC_IMPROVEMENT_ATLANTIS_VOLCANO_JEC_DESCRIPTION">
 			<Text>Increased Production towards constructing Wonders</Text>
 		</Row>
+
 		<!-- BUILDING -->
-		<Row Tag="LOC_BUILDING_PERIBOLOS_JEC_NAME">
-			<Text>Peribolos</Text>
+		<!-- BUILDING_FORGE_OF_HEPHAESTUS_JEC -->
+		<Row Tag="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_NAME">
+			<Text>Forge of Hephaestus</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_PERIBOLOS_JEC_DESCRIPTION">
-			<Text>+1[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production from adjacent Mines with Resources and Quarries. Ageless. Can be purchased in Towns.</Text>
+		<Row Tag="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_DESCRIPTION">
+			<Text>+1[icon:YIELD_PRODUCTION] Production. Ageless. Can be purchased in Towns.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_PERIBOLOS_JEC_TOOLTIP">
-			<Text>+1[icon:YIELD_PRODUCTION] Production on Mines with Resources and Quarries. Warehouse Production Building. Ageless. Can be purchased in Towns.</Text>
+		<Row Tag="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_TOOLTIP">
+			<Text>Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<!-- BUILDING_WHETSTONE_OF_ARES_JEC -->
+		<Row Tag="LOC_BUILDING_WHETSTONE_OF_ARES_JEC_NAME">
+			<Text>Whetstone of Ares</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHETSTONE_OF_ARES_JEC_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WHETSTONE_OF_ARES_JEC_TOOLTIP">
+			<Text>Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<!-- BUILDING_CORNUCOPIA_OF_DEMETER_JEC -->
+		<Row Tag="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_NAME">
+			<Text>Cornucopia of Demeter</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_DESCRIPTION">
+			<Text>+1[icon:YIELD_FOOD] Food. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_TOOLTIP">
+			<Text>Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<!-- BUILDING_SPRING_OF_ARTEMIS_JEC -->
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_NAME">
+			<Text>Spring of Artemmis</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_TOOLTIP">
+			<Text>Ageless. Can be purchased in Towns.</Text>
 		</Row>
 
 		<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
-		<Row Tag="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_NAME">
-			<Text>Bellows of Hephaestus</Text>
+		<Row Tag="LOC_QUARTER_OF_HEPHAESTUS_NAME">
+			<Text>Quarter of Hephaestus</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Brickyard in the same District.[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_TOWN}[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_CITY}[/LIST]</Text>
+		<Row Tag="LOC_QUARTER_OF_HEPHAESTUS_DESCRIPTION">
+			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Brickyard in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_WHETSTONE_OF_ARES -->
-		<Row Tag="LOC_QUARTER_WHETSTONE_OF_ARES_NAME">
-			<Text>Whetstone of Ares</Text>
+		<Row Tag="LOC_QUARTER_OF_ARES_NAME">
+			<Text>Quarter of Ares</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_WHETSTONE_OF_ARES_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_TOWN}[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_CITY}[/LIST]</Text>
+		<Row Tag="LOC_QUARTER_OF_ARES_DESCRIPTION">
+			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
-		<Row Tag="LOC_QUARTER_CORNUCOPIA_OF_DEMETER_NAME">
-			<Text>Cornucopia of Demeter</Text>
+		<Row Tag="LOC_QUARTER_OF_DEMETER_NAME">
+			<Text>Quarter of Demeter</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_CORNUCOPIA_OF_DEMETER_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Saw Pit in the same District.[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_TOWN}[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_CITY}[/LIST]</Text>
+		<Row Tag="LOC_QUARTER_OF_DEMETER_DESCRIPTION">
+			<Text>[LIST][LI]Created by constructing the Cornucopia of Demeter and Granry in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_SPRING_OF_ARTEMIS -->
-		<Row Tag="LOC_QUARTER_SPRING_OF_ARTEMIS_NAME">
-			<Text>Spring of Artemmis</Text>
+		<Row Tag="LOC_QUARTER_OF_ARTEMIS_NAME">
+			<Text>Quarter of Artemmis</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_SPRING_OF_ARTEMIS_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Saw Pit in the same District.[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_TOWN}[LI]{LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP_CITY}[/LIST]</Text>
+		<Row Tag="LOC_QUARTER_OF_ARTEMIS_DESCRIPTION">
+			<Text>[LIST][LI]Created by constructing the Spring of Artemis and Alter in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION}[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION">
 			<Text>+1[icon:YIELD_PRODUCTION] Production adjacency in the Capital.</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_JEC_ATLANTIS_MILITARY_BUILDING_DESCRIPTION">
-			<Text>+1[icon:YIELD_PRODUCTION] Production on Military builings in then Capital.</Text>
+		<Row Tag="LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION">
+			<Text>+1[icon:YIELD_SCIENCE] Science on adjacency in then Capital.</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_JEC_ATLANTIS_COAST_FOOD_DESCRIPTION">
-			<Text>+1[icon:YIELD_FODD] Food adjacency with coast in the Capital.</Text>
-		</Row>
-
-		<Row Tag="LOC_MOD_JEC_ATLANTIS_RIVER_FOOD_DESCRIPTION">
-			<Text>+1[icon:YIELD_FODD] Production Food with rivers in the Capital.</Text>
+		<Row Tag="LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION">
+			<Text>+1[icon:YIELD_FODD] Food adjacency in the Capital.</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION">

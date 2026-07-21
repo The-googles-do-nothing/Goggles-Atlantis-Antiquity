@@ -38,17 +38,38 @@
 			<ID>WONDER_TEMPLE_OF_POSEIDON</ID>
 			<Path>fs://game/goggles_civ_atlantis/icons/wondericon_temple_of_poseidon.png</Path>
 		</Row>
+		<Row>
+			<ID>WONDER_TEMPLE_OF_ZEUS</ID>
+			<Path>fs://game/goggles_civ_atlantis/icons/wondericon_temple_of_zeus.png</Path>
+		</Row>
         <!-- Buildings -->
          <Row>
-            <ID>BUILDING_PERIBOLOS_JEC</ID>
-            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_PERIBOLOS_jec.png</Path>
+            <ID>IMPROVEMENT_ATLANTIS_VOLCANO_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_atlantis_caldera_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+
          <Row>
             <ID>BUILDING_FORGE_OF_HEPHAESTUS_JEC</ID>
             <Path>fs://game/goggles_civ_atlantis/icons/buildicon_forge_of_hephaestus_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+         <Row>
+            <ID>BUILDING_WHETSTONE_OF_ARES_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_whetstone_of_ares_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+         <Row>
+            <ID>BUILDING_CORNUCOPIA_OF_DEMETER_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_cornucopia_of_demeter_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+         <Row>
+            <ID>BUILDING_SPRING_OF_ARTEMIS_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_spring_of_artemis_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
         <!-- UU AND UI -->
 
         <Row>

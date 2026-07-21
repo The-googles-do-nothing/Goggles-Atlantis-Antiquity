@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>  
 	<Types>
-		<Row Type="BUILDING_PERIBOLOS_JEC" Kind="KIND_CONSTRUCTIBLE"/>
 		<Row Type="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_WHETSTONE_OF_ARES_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_SPRING_OF_ARTEMIS_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
 	<AgeGrowthBalances>
 	</AgeGrowthBalances>
 	<Constructibles>
-        <Row ConstructibleType="BUILDING_PERIBOLOS_JEC" Name="LOC_BUILDING_PERIBOLOS_JEC_NAME" Description="LOC_BUILDING_PERIBOLOS_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_PERIBOLOS_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
-        <Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Name="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_NAME" Description="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
-
+  		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Name="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_NAME" Description="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_FORGE_OF_HEPHAESTUS_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+        <Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" Name="LOC_BUILDING_WHETSTONE_OF_ARES_JEC_NAME" Description="LOC_BUILDING_WHETSTONE_OF_ARES_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_BELLOWS_OF_HEPHAESTUS_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+  		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" Name="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_NAME" Description="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+        <Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" Name="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_NAME" Description="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
 	</Constructibles>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" Movable="false" Town="True" TraitType="TRAIT_ATLANTIS_JEC"/>
 		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Movable="false" Town="True" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" Movable="false" Town="True" TraitType="TRAIT_ATLANTIS_JEC"/>	
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" Movable="false" Town="True" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" Movable="false" Town="True" TraitType="TRAIT_ATLANTIS_JEC"/>	
 	</Buildings>
 	<Improvements>
 
@@ -23,18 +29,30 @@
 	<Wonders>
 	</Wonders>
 	<TypeTags>
-		<Row Type="BUILDING_PERIBOLOS_JEC" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_PERIBOLOS_JEC" Tag="AGELESS"/>
-
 		<Row Type="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Tag="PRODUCTION"/>
 		<Row Type="BUILDING_FORGE_OF_HEPHAESTUS_JEC" Tag="AGELESS"/>
+
+		<Row Type="BUILDING_WHETSTONE_OF_ARES_JEC" Tag="SCIENCE"/>
+		<Row Type="BUILDING_WHETSTONE_OF_ARES_JEC" Tag="AGELESS"/>
+
+		<Row Type="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" Tag="FOOD"/>
+		<Row Type="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" Tag="AGELESS"/>
+
+		<Row Type="BUILDING_SPRING_OF_ARTEMIS_JEC" Tag="GOLD"/>
+		<Row Type="BUILDING_SPRING_OF_ARTEMIS_JEC" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" DistrictType="DISTRICT_URBAN"/>
-
 		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
 		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" DistrictType="DISTRICT_URBAN"/>
+
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" DistrictType="DISTRICT_URBAN"/>
+
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" DistrictType="DISTRICT_URBAN"/>
+
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
 	</District_FreeConstructibles>
@@ -53,8 +71,10 @@
 	<Constructible_YieldChanges>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" YieldType="YIELD_HAPPINESS" Amount="1"/>
 		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" YieldType="YIELD_PRODUCTION" Amount="1"/>
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" YieldType="YIELD_SCIENCE" Amount="1"/>
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" YieldType="YIELD_FOOD" Amount="1"/>
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" YieldType="YIELD_GOLD" Amount="1"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 
@@ -72,23 +92,26 @@
 	<Constructible_Logistics>
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
 		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" PlunderType="PLUNDER_GOLD" Amount="40"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_BELLOWS_OF_HEPHAESTUS" BuildingType1="BUILDING_PERIBOLOS_JEC" BuildingType2="BUILDING_BRICKYARD" Name="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_NAME" Description="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_DESCRIPTION" Tooltip="LOC_QUARTER_BELLOWS_OF_HEPHAESTUS_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
-		<Row UniqueQuarterType="QUARTER_WHETSTONE_OF_ARES" BuildingType1="BUILDING_PERIBOLOS_JEC" BuildingType2="BUILDING_SAW_PIT" Name="LOC_QUARTER_WHETSTONE_OF_ARES_NAME" Description="LOC_QUARTER_WHETSTONE_OF_ARES_DESCRIPTION" Tooltip="LOC_QUARTER_WHETSTONE_OF_ARES_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
-		<Row UniqueQuarterType="QUARTER_CORNUCOPIA_OF_DEMETER" BuildingType1="BUILDING_PERIBOLOS_JEC" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_CORNUCOPIA_OF_DEMETER_NAME" Description="LOC_QUARTER_CORNUCOPIA_OF_DEMETER_DESCRIPTION" Tooltip="LOC_QUARTER_CORNUCOPIA_OF_DEMETER_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
-		<Row UniqueQuarterType="QUARTER_SPRING_OF_ARTEMIS" BuildingType1="BUILDING_PERIBOLOS_JEC" BuildingType2="BUILDING_ALTAR" Name="LOC_QUARTER_SPRING_OF_ARTEMIS_NAME" Description="LOC_QUARTER_SPRING_OF_ARTEMIS_DESCRIPTION" Tooltip="LOC_QUARTER_SPRING_OF_ARTEMIS_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row UniqueQuarterType="QUARTER_OF_HEPHAESTUS" BuildingType1="BUILDING_FORGE_OF_HEPHAESTUS_JEC" BuildingType2="BUILDING_BRICKYARD" Name="LOC_QUARTER_OF_HEPHAESTUS_NAME" Description="LOC_QUARTER_OF_HEPHAESTUS_DESCRIPTION" Tooltip="LOC_QUARTER_OF_HEPHAESTUS_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row UniqueQuarterType="QUARTER_OF_ARES" BuildingType1="BUILDING_WHETSTONE_OF_ARES_JEC" BuildingType2="BUILDING_SAW_PIT" Name="LOC_QUARTER_OF_ARES_NAME" Description="LOC_QUARTER_OF_ARES_DESCRIPTION" Tooltip="LOC_QUARTER_OF_ARES_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row UniqueQuarterType="QUARTER_OF_DEMETER" BuildingType1="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_OF_DEMETER_NAME" Description="LOC_QUARTER_OF_DEMETER_DESCRIPTION" Tooltip="LOC_QUARTER_OF_DEMETER_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
+		<Row UniqueQuarterType="QUARTER_OF_ARTEMIS" BuildingType1="BUILDING_SPRING_OF_ARTEMIS_JEC" BuildingType2="BUILDING_ALTAR" Name="LOC_QUARTER_OF_ARTEMIS_NAME" Description="LOC_QUARTER_OF_ARTEMIS_DESCRIPTION" Tooltip="LOC_QUARTER_OF_ARTEMIS_TOOLTIP" TraitType="TRAIT_ATLANTIS_JEC"/>
+	
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION -->
 		<Row ModifierId="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION"/>
 		<!-- QUARTER_WHETSTONE_OF_ARES -->
-		<Row ModifierId="MOD_JEC_ATLANTIS_MILITARY_BUILDING"/>
+		<Row ModifierId="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE"/>
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
 		<Row ModifierId="MOD_JEC_ATLANTIS_COAST_FOOD"/>
 		<Row ModifierId="MOD_JEC_ATLANTIS_RIVER_FOOD"/>
@@ -99,19 +122,21 @@
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
 		<!-- MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION -->
-		<Row UniqueQuarterType="QUARTER_BELLOWS_OF_HEPHAESTUS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION"/>
+		<Row UniqueQuarterType="QUARTER_OF_HEPHAESTUS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION"/>
 		<!-- QUARTER_WHETSTONE_OF_ARES -->
-		<Row UniqueQuarterType="QUARTER_WHETSTONE_OF_ARES" ModifierId="MOD_JEC_ATLANTIS_MILITARY_BUILDING"/>
+		<Row UniqueQuarterType="QUARTER_OF_ARES" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE"/>
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
-		<Row UniqueQuarterType="QUARTER_CORNUCOPIA_OF_DEMETER" ModifierId="MOD_JEC_ATLANTIS_COAST_FOOD"/>
-		<Row UniqueQuarterType="QUARTER_CORNUCOPIA_OF_DEMETER" ModifierId="MOD_JEC_ATLANTIS_RIVER_FOOD"/>
+		<Row UniqueQuarterType="QUARTER_OF_DEMETER" ModifierId="MOD_JEC_ATLANTIS_COAST_FOOD"/>
+		<Row UniqueQuarterType="QUARTER_OF_DEMETER" ModifierId="MOD_JEC_ATLANTIS_RIVER_FOOD"/>
 		<!-- QUARTER_SPRING_OF_ARTEMIS -->
-		<Row UniqueQuarterType="QUARTER_SPRING_OF_ARTEMIS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN"/>
-		<Row UniqueQuarterType="QUARTER_SPRING_OF_ARTEMIS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY"/>
+		<Row UniqueQuarterType="QUARTER_OF_ARTEMIS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN"/>
+		<Row UniqueQuarterType="QUARTER_OF_ARTEMIS" ModifierId="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
-		<Row ConstructibleType="BUILDING_PERIBOLOS_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="BUILDING_FORGE_OF_HEPHAESTUS_JEC" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="BUILDING_WHETSTONE_OF_ARES_JEC" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+		<Row ConstructibleType="BUILDING_CORNUCOPIA_OF_DEMETER_JEC" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+		<Row ConstructibleType="BUILDING_SPRING_OF_ARTEMIS_JEC" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
 	</Constructible_Advisories>
 
 </Database>
