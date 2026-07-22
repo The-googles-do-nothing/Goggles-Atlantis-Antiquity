@@ -1,64 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
-	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<!-- QUARTER_OF_HEPHAESTUS -->
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_OF_HEPHAESTUS</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN_ATTACH</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">ResourceProduction</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_OF_HEPHAESTUS</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">ResourceProduction</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY_ATTACH</Argument>
 		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 
-	<!-- QUARTER_WHETSTONE_OF_ARES -->
-	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- QUARTER_OF_ARES -->
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_OF_ARES</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_TOWN_ATTACH</Argument>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Adjacency_YieldChange">ResourceScience</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_OF_ARES</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
-		<Argument name="Tag">MILITARY</Argument>
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="Amount">20</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION</String>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_CITY_ATTACH</Argument>
 	</Modifier>
 
-	<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
-	<Modifier id="MOD_JEC_ATLANTIS_COAST_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_CITY_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<!-- QUARTER_OF_DEMETER -->
+	<Modifier id="MOD_JEC_ATLANTIS_FOOD_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_OF_DEMETER</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">CoastFood</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_FOOD_CITY_ATTACH</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_FOOD_CITY_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_COAST_FOOD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_OF_DEMETER</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_COAST_FOOD_ATTACH</Argument>
 		<String context="Description">LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="MOD_JEC_ATLANTIS_RIVER_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+
+	<Modifier id="MOD_JEC_ATLANTIS_COAST_FOOD_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Adjacency_YieldChange">CoastFood</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RIVER_FOOD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_OF_DEMETER</Argument>
 			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RIVER_FOOD_ATTACH</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_ATLANTIS_RIVER_FOOD_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="Adjacency_YieldChange">RiverFood</Argument>
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">1</Argument>
 		<Argument name="Divisor">1</Argument>
 	</Modifier>
 
-	<!-- QUARTER_SPRING_OF_ARTEMIS -->
+	<!-- QUARTER_OF_ARTEMIS -->
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_SPRING_OF_ARTEMIS</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_ARTEMIS</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
@@ -72,7 +140,7 @@
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_SPRING_OF_ARTEMIS</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_ARTEMIS</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
