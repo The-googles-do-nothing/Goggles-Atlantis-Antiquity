@@ -11,84 +11,18 @@
 		<String context="Preview">LOC_MOD_JEC_CIV_WONDER_PRODUCTION_ATLANTIS_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+	<Modifier id="MOD_ATLANTIS_JEC_CITY_HALL_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" permanent="true" run-once="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderCulture</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
+		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
+		<Argument name="Description">LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION</Argument>
 	</Modifier>
 
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_DIPLOMANCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderDiplomacy</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderFood</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderGold</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderHappiness</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderProduction</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-	</Modifier>
-
-	<Modifier id="WONDER_ATLANTIS_JEC_MOD_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Adjacency_YieldChange">WonderScience</Argument>
-		<Argument name="Amount">10</Argument>
-		<Argument name="Divisor">1</Argument>
-	</Modifier>
 
 </GameEffects>

@@ -13,7 +13,7 @@
 	<Buildings>
 	</Buildings>
 	<Improvements>
-		<Row ConstructibleType="IMPROVEMENT_ATLANTIS_VOLCANO_JEC" TraitType="TRAIT_ATLANTIS_JEC_2"/>
+		<Row ConstructibleType="IMPROVEMENT_ATLANTIS_VOLCANO_JEC" TraitType="TRAIT_ATLANTIS_JEC"/>
 	</Improvements>
 	<Wonders>
 	</Wonders>

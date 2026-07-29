@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_ATLANTIS_JEC"/>		
-		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_TRAIT_ATLANTIS_JEC_ABILITY_RESOURCE_GOLD"/>
-		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_TRAIT_ATLANTIS_JEC_ABILITY_RESOURCE_WILDCARD"/>
+		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_ATLANTIS_FORBID_CITIES_FROM_TOWNS"/>
+		<Row TraitType="TRAIT_ATLANTIS_JEC_ABILITY" ModifierId="MOD_JEC_CIV_WONDER_PRODUCTION_ATLANTIS"/>
 	</TraitModifiers>
 	<Civilizations>
 		<!-- Replace civics tree. -->

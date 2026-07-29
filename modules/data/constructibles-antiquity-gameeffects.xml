@@ -10,14 +10,13 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN_ATTACH</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<Argument name="Adjacency_YieldChange">ResourceProduction</Argument>
 		<Argument name="Amount">1</Argument>
 		<Argument name="Divisor">1</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
@@ -28,14 +27,13 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY_ATTACH</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
 		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- QUARTER_OF_ARES -->
@@ -47,7 +45,6 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_TOWN_ATTACH</Argument>
-		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
@@ -134,7 +131,7 @@
 		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION</String>
 	</Modifier>
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 	
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
@@ -148,7 +145,7 @@
 		<String context="Description">LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION</String>
 	</Modifier>
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 </GameEffects>

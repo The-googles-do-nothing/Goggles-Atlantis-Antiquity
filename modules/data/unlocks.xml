@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Kinds>
-		<InsertOrIgnore Kind="KIND_UNLOCK"/>
-	</Kinds>
 	<Types>
 		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_ATLANTIS_JEC" Kind="KIND_UNLOCK"/>
 	</Types>
@@ -10,24 +7,25 @@
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ATLANTIS_JEC"/>
 	</Unlocks>
 	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ATLANTIS_JEC" Name="LOC_CIVILIZATION_ATLANTIS_JEC_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_ATLANTIS_JEC" UnlockRewardType="CIVILIZATION_ATLANTIS_JEC" UnlockRewardKind="KIND_CIVILIZATION"/>
 	</UnlockRewards>
-	<RequirementSets>
-		<Row RequirementSetId="REQSET_CIV_IS_ATLANTIS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-	</RequirementSets>
-	<Requirements>
-		<Row RequirementId="REQ_CIV_IS_ATLANTIS" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
-	</Requirements>
-	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_ATLANTIS" Name="CivilizationType" Value="CIVILIZATION_ATLANTIS_JEC"/>
-	</RequirementArguments>
-	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_CIV_IS_ATLANTIS" RequirementId="REQ_CIV_IS_ATLANTIS"/>
-	</RequirementSetRequirements>
 	<UnlockRequirements>
-		<Row UnlockType="UNLOCK_CIVILIZATION_HAWAII" RequirementSetId="REQSET_CIV_IS_ATLANTIS" Description="LOC_UNLOCK_PLAY_AS_ATLANTIS_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_ATLANTIS_HAWAII_TOOLTIP"/>
-		
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_ATLANTIS_JEC" ConfigurationValue="CIVILIZATION_ATLANTIS_JEC"/>
 	</UnlockConfigurationValues>
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_ATLANTIS_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_ATLANTIS_JEC" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore RequirementId="REQ_CIV_IS_ATLANTIS_JEC" Name="CivilizationType" Value="CIVILIZATION_ATLANTIS_JEC"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="REQSET_CIV_IS_ATLANTIS_JEC" RequirementId="REQ_CIV_IS_ATLANTIS_JEC"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+
+    </UnlockRequirements>
 </Database>

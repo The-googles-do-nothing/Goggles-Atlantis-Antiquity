@@ -3,7 +3,6 @@
 	<Types>
 		<!-- Major Civs -->
 		<Row Type="TRAIT_ATLANTIS_JEC" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_ATLANTIS_JEC_2" Kind="KIND_TRAIT"/>
 		<Row Type="CIVILIZATION_ATLANTIS_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
@@ -12,7 +11,6 @@
 	</LegacyCivilizations>
 	<Traits>
 		<Row TraitType="TRAIT_ATLANTIS_JEC" InternalOnly="true"/>
-		<Row TraitType="TRAIT_ATLANTIS_JEC_2" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_BENJAMIN_FRANKLIN" CivilizationType="CIVILIZATION_ATLANTIS_JEC"/>
