@@ -40,16 +40,6 @@
 		<Row Tag="LOC_BUILDING_CORNUCOPIA_OF_DEMETER_JEC_TOOLTIP">
 			<Text>Ageless. Can be purchased in Towns.</Text>
 		</Row>
-		<!-- BUILDING_SPRING_OF_ARTEMIS_JEC -->
-		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_NAME">
-			<Text>Spring of Artemmis</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness. Ageless. Can be purchased in Towns.</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_TOOLTIP">
-			<Text>Ageless. Can be purchased in Towns.</Text>
-		</Row>
 
 		<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
 		<Row Tag="LOC_QUARTER_OF_HEPHAESTUS_NAME">
@@ -64,7 +54,7 @@
 			<Text>Quarter of Ares</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_OF_ARES_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION}[/LIST]</Text>
+			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
@@ -72,15 +62,7 @@
 			<Text>Quarter of Demeter</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_OF_DEMETER_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Cornucopia of Demeter and Granry in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION}[/LIST]</Text>
-		</Row>
-
-		<!-- QUARTER_SPRING_OF_ARTEMIS -->
-		<Row Tag="LOC_QUARTER_OF_ARTEMIS_NAME">
-			<Text>Quarter of Artemmis</Text>
-		</Row>
-		<Row Tag="LOC_QUARTER_OF_ARTEMIS_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Spring of Artemis and Alter in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION}[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION}[/LIST]</Text>
+			<Text>[LIST][LI]Created by constructing the Cornucopia of Demeter and Granry in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION}[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION">

@@ -41,7 +41,6 @@
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ATLANTIS_ORICALICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_ATLANTIS_SIXTH_PORTION" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ATLANTIS_ORICALICUM" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SPRING_OF_ARTEMIS_JEC" UnlockDepth="1" />
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 		<Row Node="NODE_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS" PrereqNode="NODE_CIVIC_AQ_ATLANTIS_PILLARS_OF_HERCULES"/>

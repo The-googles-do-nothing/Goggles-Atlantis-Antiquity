@@ -64,12 +64,6 @@
             <Path>fs://game/goggles_civ_atlantis/icons/buildicon_cornucopia_of_demeter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-         <Row>
-            <ID>BUILDING_SPRING_OF_ARTEMIS_JEC</ID>
-            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_spring_of_artemis_jec.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-
         <!-- UU AND UI -->
 
         <Row>

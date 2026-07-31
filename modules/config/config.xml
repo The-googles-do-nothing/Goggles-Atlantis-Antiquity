@@ -29,7 +29,6 @@
 
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" Type="QUARTER_OF_HEPHAESTUS" Kind="KIND_QUARTER" Name="LOC_QUARTER_OF_HEPHAESTUS_NAME" Description="LOC_QUARTER_OF_HEPHAESTUS_DESCRIPTION" Icon="city_uniquequarter"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" Type="QUARTER_OF_ARES" Kind="KIND_QUARTER" Name="LOC_QUARTER_OF_ARES_NAME" Description="LOC_QUARTER_OF_ARES_DESCRIPTION" Icon="city_uniquequarter"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" Type="QUARTER_OF_DEMETER" Kind="KIND_QUARTER" Name="LOC_QUARTER_OF_DEMETER_NAME" Description="LOC_QUARTER_OF_DEMETER_DESCRIPTION" Icon="city_uniquequarter"/>
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ATLANTIS_JEC" TagType="TAG_TRAIT_EXPANSIONIST"/>
