@@ -17,7 +17,7 @@
 				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount" type="ScaleByGameAge" extra="100">20</Argument>
 		<Argument name="ConstructibleClass">BUILDING</Argument>
 	</Modifier>
