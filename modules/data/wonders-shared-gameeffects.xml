@@ -11,21 +11,15 @@
 		<String context="Preview">LOC_MOD_JEC_CIV_WONDER_PRODUCTION_ATLANTIS_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="MOD_ATLANTIS_JEC_CITY_HALL_HAPPINESS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true" run-once="true">
+	<Modifier id="MOD_TEMPLE_OF_POSEIDON_JEC_HAPPINESS_ON_WONDER_CREATED" collection="COLLECTION_PLAYER_CITIES" effect="TRIGGER_CITY_GRANT_YIELD_ON_CONSTRUCTIBLE_CREATED">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_TEMPLE_OF_POSEIDON</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_ATLANTIS_JEC_CITY_HALL_HAPPINESS_ATTACH</Argument>
-		<Argument name="Tooltip">LOC_WONDER_TEMPLE_OF_POSEIDON_NAME</Argument>
-		<Argument name="Description">LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_ATLANTIS_JEC_CITY_HALL_HAPPINESS_ATTACH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" >
-		<Argument name="ConstructibleType">BUILDING_CITY_HALL</Argument>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">20</Argument>
+		<Argument name="ConstructibleClass">BUILDING</Argument>
 	</Modifier>
 
 </GameEffects>

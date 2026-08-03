@@ -17,7 +17,7 @@
 		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" DistrictType="DISTRICT_WONDER"/>
     </Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<Row ConstructibleType="WONDER_TEMPLE_OF_POSEIDON" ModifierId="WONDER_ATLANTIS_JEC_MOD_CULTURE"/>

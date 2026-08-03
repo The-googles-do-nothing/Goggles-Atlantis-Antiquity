@@ -26,8 +26,6 @@
 			<Argument name="Divisor">1</Argument>
 			<Argument name="Urban">false</Argument>
 			<Argument name="Rural">true</Argument>
-			<Argument name="Tooltip">LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_NAME</Argument>
-			<String context="Description">LOC_CIVIC_AQ_ATLANTIS_HUNT_OF_THE_BULLS_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS -->
@@ -53,8 +51,6 @@
 			<Argument name="Divisor">1</Argument>
 			<Argument name="Urban">true</Argument>
 			<Argument name="Rural">false</Argument>
-			<Argument name="Tooltip">LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_NAME</Argument>
-			<String context="Description">LOC_NODE_CIVIC_AQ_ATLANTIS_LAWS_OF_THE_TEN_KINGS_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- NODE_CIVIC_AQ_ATLANTIS_ORICALICUM -->

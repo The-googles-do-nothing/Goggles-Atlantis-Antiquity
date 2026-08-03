@@ -5,10 +5,10 @@
 			<Text>Temple of Poseidon</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_TEMPLE_OF_POSEIDON_DESCRIPTION">
-			<Text>{LOC_WONDER_TEMPLE_OF_POSEIDON_TOOLTIP}</Text>
+			<Text>[B]+3 [icon:YIELD_HAPPINESS][/B]. Gain [B]20 [icon:YIELD_HAPPINESS][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] when you construct a [icon:BUILDING] Wonder. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed next to the capital.</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_TEMPLE_OF_POSEIDON_TOOLTIP">
-			<Text>+2 [icon:YIELD_HAPPINESS] on City Hall buildings. Ageless. Must be built next to the capital.</Text>
+			<Text>Gain [B]20 [icon:YIELD_HAPPINESS][/B] per [TIP:LOC_PEDIA_CONCEPTS_AGE_TOOLTIP]Age[/TIP] when you construct a [icon:BUILDING] Wonder. [TIP:LOC_PEDIA_CONCEPTS_AGELESS_TOOLTIP]Ageless[/TIP]. Must be placed next to the capital.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_TEMPLE_OF_POSEIDON">
 			<Text>Place me on Sunium's marbled steep / Where nothing save the waves and I / May hear our mutual murmurs sweep.</Text>

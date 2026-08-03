@@ -54,7 +54,7 @@
 			<Text>Quarter of Ares</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_OF_ARES_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION}[/LIST]</Text>
+			<Text>[LIST][LI]Created by constructing the Whetstone of Ares and Saw Pit in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_GOLD_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
@@ -71,6 +71,10 @@
 
 		<Row Tag="LOC_MOD_JEC_ATLANTIS_RESOURCE_SCIENCE_DESCRIPTION">
 			<Text>+1[icon:YIELD_SCIENCE] Science on adjacency in then Capital.</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_JEC_ATLANTIS_GOLD_DESCRIPTION">
+			<Text>+1[icon:YIELD_GOLD] Gold adjacency in the Capital.</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_JEC_ATLANTIS_FOOD_DESCRIPTION">
