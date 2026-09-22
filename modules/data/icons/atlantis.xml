@@ -38,10 +38,7 @@
 			<ID>WONDER_TEMPLE_OF_POSEIDON</ID>
 			<Path>fs://game/goggles_civ_atlantis/icons/wondericon_temple_of_poseidon.png</Path>
 		</Row>
-		<Row>
-			<ID>WONDER_TEMPLE_OF_ZEUS</ID>
-			<Path>fs://game/goggles_civ_atlantis/icons/wondericon_temple_of_zeus.png</Path>
-		</Row>
+
         <!-- Buildings -->
          <Row>
             <ID>IMPROVEMENT_ATLANTIS_VOLCANO_JEC</ID>
@@ -63,6 +60,11 @@
             <ID>BUILDING_CORNUCOPIA_OF_DEMETER_JEC</ID>
             <Path>fs://game/goggles_civ_atlantis/icons/buildicon_cornucopia_of_demeter_jec.png</Path>
             <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_SPRING_OF_ARTEMIS_JEC</ID>
+            <Path>fs://game/goggles_civ_atlantis/icons/buildicon_spring_of_artemis_jec.png</Path>
+            <Context>DEFAULT</Context>  
         </Row>
         <!-- UU AND UI -->
 

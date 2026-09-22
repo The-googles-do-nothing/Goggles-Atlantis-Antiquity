@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
     <VisualRemaps>
-    <!-- subei -->
         <Row>
             <ID>REMAP_UNIT_WAR_CHARIOT_JEC</ID>
             <DisplayName>LOC_UNIT_WAR_CHARIOT_JEC_NAME</DisplayName>
@@ -23,8 +22,5 @@
             <From>UNIT_WAR_CHARIOT_JEC_3</From>
             <To>UNIT_CHARIOT</To>
         </Row>
-               
-        
     </VisualRemaps>
 </Database>
-<!-- generated with https://github.com/izica/civ7-modding-tools -->

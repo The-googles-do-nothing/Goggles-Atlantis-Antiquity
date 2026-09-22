@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<!-- QUARTER_OF_HEPHAESTUS -->
+	<!-- QUARTER_OF_HERA -->
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_HEPHAESTUS</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_HERA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
@@ -22,7 +22,7 @@
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_HEPHAESTUS</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_HERA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
@@ -36,11 +36,11 @@
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 
-	<!-- QUARTER_OF_ARES -->
+	<!-- QUARTER_OF_RHEA -->
 	<Modifier id="MOD_JEC_ATLANTIS_GOLD_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_ARES</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_RHEA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
@@ -56,7 +56,7 @@
 	<Modifier id="MOD_JEC_ATLANTIS_COAST_GOLD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_ARES</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_RHEA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
@@ -73,7 +73,7 @@
 	<Modifier id="MOD_JEC_ATLANTIS_RIVER_GOLD_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_ARES</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_RHEA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
@@ -86,11 +86,11 @@
 		<Argument name="Divisor">1</Argument>
 	</Modifier>
 
-	<!-- QUARTER_OF_DEMETER -->
-	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<!-- QUARTER_OF_RHEA -->
+	<!-- <Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_DEMETER</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_RHEA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY" inverse="true"></Requirement>
 		</SubjectRequirements>
@@ -104,7 +104,7 @@
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_OF_DEMETER</Argument>
+				<Argument name="UniqueQuarterType">QUARTER_OF_RHEA</Argument>
 			</Requirement>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
 		</SubjectRequirements>
@@ -113,6 +113,6 @@
 	</Modifier>
 	<Modifier id="MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
 		<Argument name="Amount">1</Argument>
-	</Modifier>
+	</Modifier> -->
 
 </GameEffects>

@@ -41,12 +41,23 @@
 			<Text>Ageless. Can be purchased in Towns.</Text>
 		</Row>
 
-		<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
-		<Row Tag="LOC_QUARTER_OF_HEPHAESTUS_NAME">
-			<Text>Quarter of Hephaestus</Text>
+		<!-- BUILDING_SPRING_OF_ARTEMIS_JEC -->
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_NAME">
+			<Text>Spring of Artemis</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_OF_HEPHAESTUS_DESCRIPTION">
-			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Brickyard in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION}[/LIST]</Text>
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_DESCRIPTION">
+			<Text>+1[icon:YIELD_FOOD] Food. Ageless. Can be purchased in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SPRING_OF_ARTEMIS_JEC_TOOLTIP">
+			<Text>Ageless. Can be purchased in Towns.</Text>
+		</Row>
+
+		<!-- QUARTER_BELLOWS_OF_HEPHAESTUS -->
+		<Row Tag="LOC_QUARTER_OF_HERA_NAME">
+			<Text>Quarter of Hera</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_OF_HERA_DESCRIPTION">
+			<Text>[LIST][LI]Created by constructing the Forge of Hephaestus and Whetstone of Ares in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_PRODUCTION_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
 		<!-- QUARTER_WHETSTONE_OF_ARES -->
@@ -58,10 +69,10 @@
 		</Row>
 
 		<!-- QUARTER_CORNUCOPIA_OF_DEMETER -->
-		<Row Tag="LOC_QUARTER_OF_DEMETER_NAME">
-			<Text>Quarter of Demeter</Text>
+		<Row Tag="LOC_QUARTER_OF_RHEA_NAME">
+			<Text>Quarter of Rhea</Text>
 		</Row>
-		<Row Tag="LOC_QUARTER_OF_DEMETER_DESCRIPTION">
+		<Row Tag="LOC_QUARTER_OF_RHEA_DESCRIPTION">
 			<Text>[LIST][LI]Created by constructing the Cornucopia of Demeter and Granry in the same District.[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_TOWN_DESCRIPTION}[LI]{LOC_MOD_JEC_ATLANTIS_RESOURCE_CAP_CITY_DESCRIPTION}[/LIST]</Text>
 		</Row>
 
